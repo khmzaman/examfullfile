@@ -1,0 +1,370 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family:opensans;
+	font-size:14Px;
+	line-height:24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family:sans-serif;
+}
+a, a:hover{
+	text-decoration:none;
+}
+/******************Main code start here**************/
+.header-section{
+	width:100%;
+	background:url("../img/bg.png") center no-repeat;
+	background-size:cover;
+}
+/* menu code starts here*/
+.menu{
+	width:100%;
+}
+.menu .bg-light{
+	background:transparent !important;
+}
+.menu .navbar-light .navbar-nav .nav-link{
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0px 10px;
+  padding-bottom: 0px;
+  text-decoration:none;
+}
+.menu .navbar-light .navbar-nav .nav-link:hover{
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  text-decoration:none;
+}
+.menu .navbar-light .navbar-nav .active >.nav-link{
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  text-decoration:none;
+}
+.menu .navbar-light .navbar-nav .btn-info{
+  margin-left: 10px;
+  padding: 10px 35px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #14215e;
+  background: #fff;
+  border: 0px;
+  border-radius: 30px;
+  box-shadow: 2px 5px 10px #fff;
+  transition: 1s ease-in;
+}
+.menu .navbar-light .navbar-nav .btn-info:hover,.menu-section .navbar-light .navbar-nav .btn-info:focus{
+  color: #14215e;
+  background:#fff;
+  border: 0px;
+}
+/* menu code ends here*/
+/*Banner  code starts here*/
+.header-section .banner {
+    width: 100%;
+    padding: 311px 0px 40px;
+}
+.banner .banner-inner{
+  width: 100%;
+  padding: 0px 0px 40px;
+  margin-left: 30px;
+  margin-top: -3%;
+}
+.banner .banner-inner h1{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #1c2056;
+  margin-bottom: 15px;
+}
+.banner .banner-inner p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #756d91;
+}
+.banner .banner-inner .btn-info{
+  padding: 10px 35px;
+  margin-top: 10px;
+  margin-bottom: 30%;
+  font-size: 17px;
+  color: #fff;
+  background: #2870db;
+  border: 1px solid #2870db;
+  border-radius: 30px;
+  box-shadow: 2px 5px 20px #2870db;
+  transition: 1s ease-in;
+}
+.banner .banner-inner .btn-info:hover, .banner-section .banner-inner .btn-info:focus{
+  color:#2870db;
+  background:#fff;
+  border: 1px solid #2870db;
+}
+/*Banner  code ends here*/
+/*Feature  code starts here*/
+.feature{
+  width: 100%;
+  position: relative;
+  padding: 0px 0px 60px;
+}
+.shape-3{
+  position: absolute;
+  top: -12%;
+  right: 0px;
+}
+.shape-3 img{
+  width: 1000px;
+  height: 3700px;
+}
+.feature .title h2{
+  margin-top: 100px;
+  margin-bottom: 60px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #263238;
+  text-align: center;
+}
+.feature .f-inner img{
+  margin-left: 23%;
+  margin-bottom: 60px;
+}
+.f-inner .f-text{
+  margin-right: 120px;
+  padding: 50px 0px 50px 40px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px 5px #ccc;
+}
+.f-inner .f-head{
+  text-transform: capitalize;
+  color: #263238;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  margin-left: 10px;
+}
+.f-inner .f-p{
+  font-size: 14px;
+  line-height: 35px;
+  color: #546e7a;
+  margin-left: 10px;
+}
+.feature .f-btn .btn-info{
+  top: 63%;
+  left: 12%;
+  position: absolute;
+  padding: 10px 30px;
+  background: #2870db;
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: 1px solid #2870db;
+  border-radius: 50px;
+  box-shadow: 5px 5px 15px #ccc;
+  transition: 1s;
+}
+.feature .f-btn .btn-info:hover{
+  background: #fff;
+  color: #2870db;
+  border: 1px solid #2870db;
+} 
+/*  feature code ends */
+/* members code starts here */
+.members{
+  width: 100%;
+  padding: 40px 0px;
+  margin-top: 40px;
+}
+.members .title h2{
+  font-size: 25px;
+  font-weight: 600;
+  color: #35434b;
+  text-align: center;
+}
+.members .member-info{
+  margin-top: 60px;
+  text-align: center;
+}
+.member-info .head{
+  font-size: 16px;
+  color: #263238;
+}
+.member-info .counter{
+  font-size: 25px;
+  font-weight: 700;
+  color: #2963aa;
+}
+.member-info .p{
+  font-size: 16px;
+  color: #263238;
+}
+/* members code ends here */
+/* protection code starts here */
+.protection{
+  width: 100%;
+  position: relative;
+  padding: 30px 0px 60px;
+  margin-top: 30px;
+}
+.shape-4{
+  position: absolute;
+  top: 12%;
+  left: -15px;
+}
+.shape-4 img{
+  width: 150px;
+  height: 800px;
+}
+.protection .col-pad{
+  margin: 0px -20px;
+}
+.protection .title h2{
+  font-size: 25px;
+  font-weight: 600;
+  color: #35434b;
+  text-align: center;
+}
+.protection .card{
+  margin-top: 50px;
+  border-radius: 15px;
+  margin-left: 80px;
+  box-shadow: 2px 5px 10px #ccc;
+}
+.card .card-img-top{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card .card-body .card-title{
+  font-size: 18px;
+  font-weight: 700;
+  color: #263238;
+  margin: 10px 0px 20px;
+}
+.card .card-body .card-text{
+  font-size: 14px;
+  line-height: 30px;
+  color: #7f929b;
+}
+.card .card-body .btn-link{
+  color: #2870db;
+  font-weight: 600;
+  margin-left: -15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 1s;
+}
+.card .card-body .btn-link:hover{
+  background: #2870db;
+  color: #fff;
+}
+/* protection code ends here */
+/* Login section code starts here */
+.login{
+  width: 100%;
+  padding: 40px 0px 60px;
+  margin-top: 20px;
+  position: absolute;
+}
+.login .container-bg{
+  width: 100%;
+  padding: 60px 0px 100px;
+  background: url(../img/sub-f-bg.png) center top no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+.login .title h2{
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+} 
+.login .form-group{
+  margin-top: 40px;
+  text-align: center;
+}
+.login .form-group .control{
+  width: 80%;
+  padding: 10px 30px;
+  color: #7f929b;
+  border-radius: 15px;
+  border: 0px;
+  margin-bottom: 25px;
+}
+.login .form-group .btn-info{
+  margin-top: 30px;
+  padding: 10px 30px;
+  background: #00aeff;
+  color: #fff;
+  font-weight: 600;
+  border: 1px solid #00aeff;
+  border-radius: 50px;
+  transition: 1s;
+}
+.login .form-group .btn-info:hover{
+  border: 1px solid #fff;
+  background: #fff;
+  color: #00aeff;  
+}
+/* Login section code ends here */
+/* Footer section code starts here */
+.footer{
+  width: 100%;
+  padding: 60px 0px 50px;
+  background: url(../img/shape-5.png) center top no-repeat;
+  background-size: cover;
+  margin-top: 20%;
+}
+.footer .gap{
+  margin: 0px 15px;
+}
+.footer h5{
+  font-size: 17px;
+  color: #fff;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+.footer p{
+  font-size: 14px;
+  color: #fff;
+  line-height: 30px;
+}
+.footer .items li{
+  margin: 15px 0px;
+}
+.footer .items li a{
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+.footer .items li a:hover{
+  color: yellow;
+}
+.footer .social-icons li{
+  display: inline-block;
+  margin: 0px 5px;
+}
+.footer .social-icons li a{
+  font-size: 20px;
+  color: #2376cf;
+  text-align: center;
+  display: block;
+  margin-top: 40px;
+} 
+.footer .social-icons li a .fa{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background: #fff;
+  transition: .5s;
+}
+.footer .social-icons li a .fa:hover{
+  background: #2376cf;
+  color: #fff;
+}
+/* Footer section code ends here */
